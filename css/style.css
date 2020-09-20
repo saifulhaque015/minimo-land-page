@@ -1,0 +1,163 @@
+/* google font integration */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,span,a,p{
+    font-family: 'Playfair Display', serif;
+}
+/* header css */
+.header{
+    width: 100%;
+}
+.nav-item{
+    margin-left: 80px;
+    transition: all 0.5s ease-in-out;
+}
+.nav-item a:hover{
+    color: black !important;
+    transition: all 0.5s ease-in-out;
+}
+.nav-link{
+    color: #b4ad9e !important;
+}
+
+.navbar{
+    margin:25px 0px;
+}
+/* banner css start here */
+.banner{
+    width: 100%;
+    margin-top: 20px;
+}
+.banner-desc{
+    margin: 50px 75px 35px;
+}
+.banner-desc h1{
+    margin: 15px 0;
+}
+.banner-desc p{
+    line-height: 24px;
+    margin-bottom: 2rem;
+}
+.banner-desc span{
+    color: #b4ad9e; 
+}
+/* site desc css here */
+.post{
+    margin: 50px 75px 35px;
+}
+.post h3{
+    margin: 15px 0;
+}
+.post span{
+    color: #b4ad9e; 
+}
+.post img{
+    margin-bottom: 25px;
+}
+.post-2{
+    margin: 50px 75px 35px;
+}
+.post-2 h3{
+    margin: 15px 0;
+}
+.post-2 span{
+    color: #b4ad9e; 
+}
+.post-2 img{
+    margin-bottom: 25px;
+}
+.post-3{
+    margin: 50px 75px 35px;
+}
+.post-3 h3{
+    margin: 15px 0;
+}
+.post-3 span{
+    color: #b4ad9e; 
+}
+.post-3 img{
+    margin-bottom: 25px;
+}
+.post-4{
+    margin: 50px 75px 35px;
+}
+.post-4 h3{
+    margin: 15px 0;
+}
+.post-4 span{
+    color: #b4ad9e; 
+}
+.post-4 img{
+    margin-bottom: 25px;
+}
+.subscribe{
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-top: 55px;
+    margin: 50px 75px 35px;
+    padding: 60px 0px;
+    text-align: center;
+}
+.subscribe h1{
+    margin-bottom: 55px;
+    font-weight: 400 !important;
+}
+form input{
+    padding: 20px 0;
+    width: 43%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+form input:focus{
+    outline: none;
+}
+form{
+    position: relative;
+}
+form i{
+    position: absolute;
+    top: 30px;
+    right: 29%;
+}
+/* load more btn css here */
+.load-more{
+    text-align: center;
+}
+.button{
+    padding: 19px 35px;
+    border: none;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 20px;
+    margin-top: 35px;
+    
+}
+.footer{
+    margin-top: 70px;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 40px 0px;
+}
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+}
+.footer ul li a{
+    color: black;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.left ul li{
+    margin-right: 24px;
+}
+.right ul li {
+    margin-left: 20px;
+}
