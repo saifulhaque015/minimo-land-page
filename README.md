@@ -1,0 +1,1 @@
+# minimo-land-page
